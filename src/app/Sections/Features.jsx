@@ -13,7 +13,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="py-16 bg-gray-100 text-gray-800">
+    <section className="py-16 bg-gray-100 text-gray-800 p-4 min-h-screen ">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-8">Features</h2>
         <div className="grid md:grid-cols-3 gap-8">
