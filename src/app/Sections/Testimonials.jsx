@@ -7,7 +7,7 @@ function Testimonials() {
     { name: "Emily Davis", text: "Incredible features and easy to use." },
   ];
   return (
-    <section className="py-16 bg-white text-gray-800">
+    <section className="py-16 bg-white text-gray-800 min-h-1.5">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-8">What Our Customers Say</h2>
         <div className="grid md:grid-cols-3 gap-8">
