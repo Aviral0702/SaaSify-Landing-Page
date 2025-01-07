@@ -18,10 +18,10 @@ function Navbar() {
                     {/* Desktop Menu */}
                     <div className='hidden md:block'>
                         <ul className='flex space-x-8'>
-                            <li><Link href="/" className='hover:text-gray-600'>Home</Link></li>
-                            <li><Link href="/" className='hover:text-gray-600'>Features</Link></li>
-                            <li><Link href="/" className='hover:text-gray-600'>Pricing</Link></li>
-                            <li><Link href="/" className='hover:text-gray-600'>Contact Us</Link></li>
+                            <li><Link href="#home" className='hover:text-gray-600'>Home</Link></li>
+                            <li><Link href="#features" className='hover:text-gray-600'>Features</Link></li>
+                            <li><Link href="#pricing" className='hover:text-gray-600'>Pricing</Link></li>
+                            <li><Link href="#contact-us" className='hover:text-gray-600'>Contact Us</Link></li>
                         </ul>
                     </div>
                     
